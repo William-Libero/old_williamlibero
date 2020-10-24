@@ -1,0 +1,427 @@
+body{
+    background: url(../images/background-vapor.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+.open-menu-sections{
+    position: fixed;
+    top: 0;
+    background-color: rgba(0,0,0) !important;
+    color: white;
+    margin: 1%;
+    width: 35px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer !important;
+    text-align: center;
+    padding-top: 6px;
+    z-index: 100;
+}
+
+.navbar-nav{
+    margin-top: 0px !important;
+}
+
+.close-menu-sections{
+    color: white;
+    font-size: 1.5em;
+    cursor: pointer !important;
+}
+
+.menu-sections{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    background-color: rgba(0,0,0,0.5) !important;
+    height: 0px;
+    display: none;
+}
+
+.menu-sections li{
+    height: min-content;
+    margin-left: 10px;
+}
+
+.menu-sections a{
+    color: white !important;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5em;
+    font-weight: 600;
+    transition: color 1s;
+    padding: 0px !important;
+}
+
+.menu-sections a:hover{
+    color: #01BAEF !important;
+}
+
+.menu-sections span{
+    color: white !important;
+    border-radius: 3px;
+}
+
+.menu-sections .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+/* START - SESSÃO DO NOME E DOS PARTICLES */
+#container-main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#op-container-main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: rgba(0,0,0,.6);
+}
+
+#container-main span{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 4em;
+    color: white;
+    z-index: 2;
+    border-bottom-width: 0px;
+    border-bottom-color: blue;
+    border-bottom-style: solid;
+    height: 85px;
+    cursor: default;
+}
+.border-nome-site{
+    width: 0vw;
+    height: 7px;
+    background-color: #01BAEF;
+}
+
+#particles-js{
+    height: 100vh;
+    width: 100%;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+}
+/* END - SESSÃO DO NOME E DOS PARTICLES */
+
+/* START - PADRÃO DAS SECTIONS */
+.sections{
+    background-color: rgba(0,0,0,.6);
+}
+
+.title-section{
+    color: white;
+}
+
+.title-section span{
+    color: #00a3e1;
+    font-size: 2em;
+    font-family: 'Quicksand', sans-serif;
+    cursor: default;
+}
+
+.title-section i {
+    float: right;
+    color: #00a3e1;
+    margin-top: 0.5%;
+    font-size: 2em;
+}
+
+.title-section hr{
+    border-top: 1px solid white;
+    margin: 0;
+}
+
+.title-content{
+    padding-bottom: 5%;
+}
+
+.title-content p{
+    margin: 0;
+    margin-top: 5%;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    width: 100%;
+    text-align: justify;
+    font-size: 1.2em;
+    cursor: default;
+}
+
+.title-content p:first-child{
+    margin-top: 1%;
+}
+
+.title-content p:nth-child(2){
+    margin-top: 1%;
+}
+
+.title-content h1{
+    color: #00a3e1;
+    font-size: 2em;
+    cursor: default;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 1%;
+}
+
+.title-content .dado-pessoal{
+    border-bottom: 5px solid #00a3e1;
+}
+
+.title-content span{
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.2em;
+    cursor: default;
+    color: white;
+}
+
+.title-content a i {
+    color: #777777;
+    font-size: 3em;
+    transition: color 1s;
+    font-weight: 400;
+    cursor: pointer;
+    width: 57px;
+    float: left;
+    display: block;
+    margin-top: 1%;
+}
+
+.title-content a i:hover {
+    color: white;
+}
+
+.title-content .sub-section h1{
+    color: #00a3e1;
+    font-size: 2em;
+    cursor: default;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0%;
+    margin-top: 1%;
+    text-align: center;
+}
+
+.title-content .sub-section .border-custom {
+    width: 13%;
+    height: 5px;
+    margin-left: 43.5%;
+    border: 2px solid white;
+    border-top: 0px;
+    margin-bottom: 10px;
+}
+
+.title-content .sub-section .border-custom-curriculo{
+    width: 42%;
+    margin-left: 28.5%;
+    height: 5px;
+    border: 2px solid white;
+    border-top: 0px;
+    margin-bottom: 10px;
+}
+
+.title-content .sub-section .border-custom-contato{
+    width: 37%;
+    margin-left: 31%;
+    height: 5px;
+    border: 2px solid white;
+    border-top: 0px;
+    margin-bottom: 10px;
+}
+
+.title-content .sub-section-icon {
+    background-color: transparent;
+    text-align: center;
+    margin-top: 10px;
+    transition: opacity 0.2s ease-in-out;
+    color: #777777;
+    opacity: 0.8;
+    font-size: 1.5em;
+}
+
+.title-content .sub-section-icon:hover {
+    opacity: 1;
+}
+
+.title-content .sub-section-icon i {
+    font-size: 5em;
+    color: #777777;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.title-content .sub-section-icon .icon-cliente {
+    background: url(../images/logo-evidencec.png);
+    width: 100%;
+    height: 250px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.title-content .sub-section-icon .icon-cliente:hover {
+    background: url(../images/logo-evidence.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.title-content .sub-section .form-contato{
+    padding: 15px;
+}
+
+.title-content .sub-section .form-contato input{
+    height: 30px;
+    margin-top: 20px;
+    border: 2px solid #999999;
+    background-color: transparent;
+    color: #00a3e1;
+    font-size: 1.5em;
+    font-weight: 500;
+    padding: 20px;
+}
+
+.title-content .sub-section .form-contato textarea{
+    margin-left: 0px;
+    width: 100%;
+    height: 250px;
+    padding: 12px;
+    font-family: 'Quicksand', sans-serif;
+    color: #00a3e1;
+    font-size: 1.5em;
+    margin-top: 30px;
+    background-color: transparent;
+    resize: none;
+    margin-bottom: 20px;
+    border: 2px solid #999999;
+}
+
+.title-content .sub-section .form-contato .btn-envio{
+    width: 49%;
+    height: 60px;
+    margin-top: 20px;
+    border: 2px solid #999999;
+    background-color: transparent;
+    color: #00a3e1;
+    font-size: 1.5em;
+    font-weight: 500;
+    padding: 0;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.fundo{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    top: 0;
+    z-index: 100;
+    opacity: 0.8;
+    display: none;
+}
+
+.fundo .container-aviso-email{
+    background-color: white;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 30vh;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2em;
+    padding: 2%;
+    cursor: default;
+    display: none;
+}
+
+.fundo .container-aviso-email i:first-child{
+    float: right;
+    cursor: pointer;
+}
+
+.fundo .container-aviso-email .correct{
+    color: #93C657;
+}
+
+.top-anchor{
+    position: fixed;
+    font-size: 3em;
+    z-index: 500;
+    margin-right: 2%;
+    color: white;
+    bottom: 0;
+    right: 0;
+    display: none;
+    cursor: pointer;
+    transition: color 1s;
+}
+
+.top-anchor:hover{
+    color: #00a3e1;
+}
+/* END - PADRÃO DAS SECTIONS */
+
+/* START - MEDIAS SCREEN */
+@media screen and (max-width: 992px) {
+    .title-content span{
+        font-size: 1em;
+    }
+}
+    
+@media screen and (min-width: 768px) {
+    .title-content .sub-section .form-contato input:nth-child(2){
+        margin-left: 1.6%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .title-content .sub-section .form-contato input:nth-child(2){
+        margin-left: 1.6%;
+    }
+
+    .navbar-collapse {
+        background-color: rgba(0,0,0,0.5);
+        margin-top: 12px !important;
+        padding-left: 15px;
+    }
+
+    .menu-sections{
+        display: block !important;
+        height: 60px !important;
+    }
+
+    .open-menu-sections{
+        display: none;
+    }
+    
+    .close-menu-sections{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .fundo .container-aviso-email{
+        width: 70%;
+        margin-left: 15%;
+        font-size: 1.8em;
+    
+    }
+}
+
+@media screen and (max-width: 442px) {
+    #container-main span {
+        font-size: 12vw;
+        height: 70px;
+    }
+}
+/* END - MEDIAS SCREEN */

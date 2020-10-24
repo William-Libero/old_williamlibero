@@ -1,0 +1,187 @@
+/* MEDIAS BORDER-CUSTOM PADRÃO */
+@media screen and (max-width: 1200px) {
+    .title-content .sub-section .border-custom {
+        width: 14%;
+        margin-left: 43%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .title-content .sub-section .border-custom {
+        width: 20%;
+        margin-left: 40%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .title-content .sub-section .border-custom {
+        width: 28%;
+        margin-left: 36%;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .title-content .sub-section .border-custom {
+        width: 32%;
+        margin-left: 34%;
+    }
+}
+
+@media screen and (max-width: 445px) {
+    .title-content .sub-section .border-custom {
+        width: 36%;
+        margin-left: 32%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .title-content .sub-section .border-custom {
+        width: 40%;
+        margin-left: 30%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .title-content .sub-section .border-custom {
+        width: 40vw;
+        margin-left: 23vw;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .title-content .sub-section .border-custom {
+        width: 45vw;
+        margin-left: 20vw;
+    }
+}
+
+@media screen and (max-width: 270px) {
+    .title-content .sub-section .border-custom {
+        width: 50vw;
+        margin-left: 16vw;
+    }
+}
+
+@media screen and (max-width: 230px) {
+    .title-content .sub-section .border-custom {
+        width: 60vw;
+        margin-left: 9vw;
+    }
+}
+/* MEDIAS BORDER-CUSTOM PADRÃO */
+
+/* MEDIAS BORDER-CUSTOM CURRICULO */
+@media screen and (max-width: 1200px) {
+    .title-content .sub-section .border-custom-curriculo {
+        width: 50%;
+        margin-left: 25%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .title-content .sub-section .border-custom-curriculo {
+        width: 70%;
+        margin-left: 15%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .title-content .sub-section .border-custom-curriculo {
+        width: 45%;
+        margin-left: 27%;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .title-content .sub-section .border-custom-curriculo {
+        width: 51%;
+        margin-left: 24%;
+    }
+}
+
+@media screen and (max-width: 445px) {
+    .title-content .sub-section .border-custom-curriculo {
+        width: 60%;
+        margin-left: 20%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .title-content .sub-section .border-custom-curriculo {
+        width: 65%;
+        margin-left: 17%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .title-content .sub-section .border-custom-curriculo {
+        width: 65vw;
+        margin-left: 10vw;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .title-content .sub-section .border-custom-curriculo {
+        width: 75vw;
+        margin-left: 5vw;
+    }
+}
+/* MEDIAS BORDER-CUSTOM PADRÃO */
+
+/* MEDIAS BORDER-CUSTOM CONTATO */
+@media screen and (max-width: 991px) {
+    .title-content .sub-section .border-custom-contato {
+        width: 42%;
+        margin-left: 29%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .title-content .sub-section .border-custom-contato {
+        width: 42%;
+        margin-left: 29%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .title-content .sub-section .border-custom-contato {
+        width: 56%;
+        margin-left: 22%;
+    }
+}
+
+@media screen and (max-width: 510px){
+    .title-content .sub-section .border-custom-contato {
+        width: 62%;
+        margin-left: 19%;
+    }
+}
+
+@media screen and (max-width: 445px) {
+    .title-content .sub-section .border-custom-contato {
+        width: 71%;
+        margin-left: 15%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .title-content .sub-section .border-custom-contato {
+        width: 81%;
+        margin-left: 10%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .title-content .sub-section .border-custom-contato {
+        width: 89%;
+        margin-left: 6%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .title-content .sub-section .border-custom-contato {
+        width: 99%;
+        margin-left: 1%;
+    }
+}
+/* MEDIAS BORDER-CUSTOM CONTATO */
