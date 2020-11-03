@@ -377,12 +377,6 @@ body{
         font-size: 1em;
     }
 }
-    
-@media screen and (min-width: 768px) {
-    .title-content .sub-section .form-contato input:nth-child(2){
-        margin-left: 1.6%;
-    }
-}
 
 @media screen and (max-width: 768px) {
     .title-content .sub-section .form-contato input:nth-child(2){
