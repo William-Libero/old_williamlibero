@@ -379,10 +379,6 @@ body{
 }
 
 @media screen and (max-width: 768px) {
-    .title-content .sub-section .form-contato input:nth-child(2){
-        margin-left: 1.6%;
-    }
-
     .navbar-collapse {
         background-color: rgba(0,0,0,0.5);
         margin-top: 12px !important;
