@@ -16,8 +16,3 @@
  1. Experiências
  2. Formação
  3. Linguagens
-
-
-## Contato
-
- 1. Formulário para contato via e-mail
