@@ -9,6 +9,7 @@ $(".open-menu-sections").click(function(){
 });
 
 $(".close-menu-sections").click(function(){
+    $(".menu-sections").css('display', 'none');
     $(".menu-sections").animate({
         height: "0px"
     }, 'fast', 'linear');
@@ -64,7 +65,6 @@ $('.menu-sections a').click(function() {
     }, 500);
 
     if(windowWidth > "768"){
-        console.log(windowWidth);    
         $(".menu-sections").animate({
             height: "0px"
         }, 'fast', 'linear');
