@@ -1,35 +1,29 @@
-.title-content .sub-section-icon .icon-skill-html5 {
-    background: url(../images/html5c.png);
+.title-content .sub-section-icon .icon-skill-vuejs {
+    background: url(../images/vuejs.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     height: 130px;
 }
 
-.title-content .sub-section-icon .icon-skill-html5:hover {
-    background: url(../images/html5.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+.title-content .sub-section-icon .icon-skill-vuejs:hover {
+    color: blue;
 }
 
-.title-content .sub-section-icon .icon-skill-css3 {
-    background: url(../images/css3c.png);
+.title-content .sub-section-icon .icon-skill-laravel {
+    background: url(../images/laravel.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     height: 130px;
 }
 
-.title-content .sub-section-icon .icon-skill-css3:hover {
-    background: url(../images/css3.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+.title-content .sub-section-icon .icon-skill-laravel:hover {
+    color: blue;
 }
 
 .title-content .sub-section-icon .icon-skill-javascript {
-    background: url(../images/jsc.png);
+    background: url(../images/js.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -37,29 +31,23 @@
 }
 
 .title-content .sub-section-icon .icon-skill-javascript:hover {
-    background: url(../images/js.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+    color: blue;
 }
 
-.title-content .sub-section-icon .icon-skill-php {
-    background: url(../images/phpc.png);
+.title-content .sub-section-icon .icon-skill-flutter {
+    background: url(../images/flutter.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     height: 130px;
 }
 
-.title-content .sub-section-icon .icon-skill-php:hover {
-    background: url(../images/php.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+.title-content .sub-section-icon .icon-skill-flutter:hover {
+    color: blue;
 }
 
 .title-content .sub-section-icon .icon-skill-mysql {
-    background: url(../images/mysqlc.png);
+    background: url(../images/mysql.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -67,14 +55,11 @@
 }
 
 .title-content .sub-section-icon .icon-skill-mysql:hover {
-    background: url(../images/mysql.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+    color: blue;
 }
 
 .title-content .sub-section-icon .icon-skill-nodejs {
-    background: url(../images/nodejsc.png);
+    background: url(../images/nodejs.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -82,8 +67,5 @@
 }
 
 .title-content .sub-section-icon .icon-skill-nodejs:hover {
-    background: url(../images/nodejs.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+    color: blue;
 }
