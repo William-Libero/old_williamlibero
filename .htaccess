@@ -6,4 +6,4 @@ RewriteCond %{HTTPS} off
 RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 RewriteCond %{http_host} ^www.williamlibero.com.br [NC]
-RewriteRule ^(.*)$ http://williamlibero.com.br/$1 [R=301,L]
+RewriteRule ^(.*)$ https://williamlibero.com.br/$1 [R=301,L]
