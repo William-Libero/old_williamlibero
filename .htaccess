@@ -5,5 +5,7 @@ RewriteCond %{HTTP:X-Forwarded-Proto} !https
 RewriteCond %{HTTPS} off
 RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
-RewriteCond %{http_host} ^www.williamlibero.com.br [NC]
-RewriteRule ^(.*)$ https://williamlibero.com.br/$1 [R=301,L]
+Options +FollowSymlinks
+RewriteEngine on
+RewriteCond %{http_host} ^williamlibero.com.br [NC]
+RewriteRule ^(.*)$ http://www.williamlibero.com.br/$1 [R=301,L]
