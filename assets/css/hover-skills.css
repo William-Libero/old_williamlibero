@@ -1,37 +1,27 @@
+.icon-skill-javascript {
+    background: url(../images/js.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 130px;
+    transition: height 0.15s ease-out;
+}
+
+.icon-skill-javascript:hover {
+    height: 150px;
+}
+
 .title-content .sub-section-icon .icon-skill-vuejs {
     background: url(../images/vuejs.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     height: 130px;
+    transition: height 0.15s ease-out;
 }
 
 .title-content .sub-section-icon .icon-skill-vuejs:hover {
-    color: blue;
-}
-
-.title-content .sub-section-icon .icon-skill-laravel {
-    background: url(../images/laravel.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 130px;
-}
-
-.title-content .sub-section-icon .icon-skill-laravel:hover {
-    color: blue;
-}
-
-.title-content .sub-section-icon .icon-skill-javascript {
-    background: url(../images/js.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 130px;
-}
-
-.title-content .sub-section-icon .icon-skill-javascript:hover {
-    color: blue;
+    height: 150px;
 }
 
 .title-content .sub-section-icon .icon-skill-flutter {
@@ -40,10 +30,25 @@
     background-repeat: no-repeat;
     background-position: center;
     height: 130px;
+    transition: height 0.15s ease-out;
 }
 
 .title-content .sub-section-icon .icon-skill-flutter:hover {
-    color: blue;
+    height: 150px;
+}
+
+
+.title-content .sub-section-icon .icon-skill-laravel {
+    background: url(../images/laravel.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 130px;
+    transition: height 0.15s ease-out;
+}
+
+.title-content .sub-section-icon .icon-skill-laravel:hover {
+    height: 150px;
 }
 
 .title-content .sub-section-icon .icon-skill-mysql {
@@ -52,10 +57,11 @@
     background-repeat: no-repeat;
     background-position: center;
     height: 130px;
+    transition: height 0.15s ease-out;
 }
 
 .title-content .sub-section-icon .icon-skill-mysql:hover {
-    color: blue;
+    height: 150px;
 }
 
 .title-content .sub-section-icon .icon-skill-nodejs {
@@ -64,8 +70,9 @@
     background-repeat: no-repeat;
     background-position: center;
     height: 130px;
+    transition: height 0.15s ease-out;
 }
 
 .title-content .sub-section-icon .icon-skill-nodejs:hover {
-    color: blue;
+    height: 150px;
 }
