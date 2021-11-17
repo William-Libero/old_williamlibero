@@ -286,81 +286,40 @@ body{
     height: 280px;
 }
 
-.title-content .sub-section .form-contato{
-    padding: 15px;
+.experience{
+    padding-bottom: 5%;
+    border-left: 1px white solid;
+    color: white;
 }
 
-.title-content .sub-section .form-contato input{
-    height: 30px;
-    margin-top: 20px;
-    border: 2px solid #999999;
-    background-color: transparent;
-    color: #00a3e1;
-    font-size: 1.5em;
-    font-weight: 500;
-    padding: 20px;
-}
-
-.title-content .sub-section .form-contato textarea{
-    margin-left: 0px;
-    width: 100%;
-    height: 250px;
-    padding: 12px;
-    font-family: 'Quicksand', sans-serif;
-    color: #00a3e1;
-    font-size: 1.5em;
-    margin-top: 30px;
-    background-color: transparent;
-    resize: none;
-    margin-bottom: 20px;
-    border: 2px solid #999999;
-}
-
-.title-content .sub-section .form-contato .btn-envio{
-    width: 49%;
-    height: 60px;
-    margin-top: 20px;
-    border: 2px solid #999999;
-    background-color: transparent;
-    color: #00a3e1;
-    font-size: 1.5em;
-    font-weight: 500;
-    padding: 0;
-    margin-left: 25%;
-    margin-right: 25%;
-}
-
-.fundo{
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    background-color: black;
-    top: 0;
-    z-index: 100;
-    opacity: 0.8;
-    display: none;
-}
-
-.fundo .container-aviso-email{
-    background-color: white;
-    width: 50%;
-    margin-left: 25%;
-    margin-top: 30vh;
-    text-align: center;
-    font-family: 'Quicksand', sans-serif;
+.briefcase{
+    margin-left: -15px; 
+    margin-top: 6%;
+    color: white;
     font-size: 2em;
-    padding: 2%;
-    cursor: default;
-    display: none;
+    background-color: rgba(0,0,0,.9);
+    float: left;
 }
 
-.fundo .container-aviso-email i:first-child{
-    float: right;
-    cursor: pointer;
+.function-title{
+    display: flex;
+    align-items: center;
 }
 
-.fundo .container-aviso-email .correct{
-    color: #93C657;
+.function-img{
+    padding-left: 15px;
+    width: 125px;
+    float: left;
+}
+
+.function-name{
+    padding-left: 10px;
+    text-align: left !important;
+}
+
+.function-experience{
+    padding-left: 30px;
+    margin-top: 10px !important;
 }
 
 .top-anchor{
@@ -412,6 +371,19 @@ body{
     
     .close-menu-sections{
         display: none;
+    }
+}
+
+
+@media screen and (max-width: 575px) {
+    .experiences{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .course-name{
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
 
