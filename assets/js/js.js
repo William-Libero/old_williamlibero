@@ -23,6 +23,7 @@ $(".close-menu-sections").click(function(){
 $(".open-color-sections").click(function(){
     $(".color-sections").css('display', 'block');
     $(".open-menu-sections").css('display', 'none');
+    $(".open-color-sections").css('display', 'none');
     $(".color-sections").animate({
         height: "60px"
     }, 'fast', 'linear');
@@ -34,6 +35,7 @@ $(".open-color-sections").click(function(){
 $(".close-color-sections").click(function(){
     $(".color-sections").css('display', 'none');
     $(".open-menu-sections").css('display', 'block');
+    $(".open-color-sections").css('display', 'block');
     $(".color-sections").animate({
         height: "0px"
     }, 'fast', 'linear');
