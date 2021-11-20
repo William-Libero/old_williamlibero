@@ -115,19 +115,10 @@ $(".nome-site").mouseout(function(){
     }, 'fast', 'linear');
 });
 
-$(".close-aviso-email").click(function(){
-    setTimeout(function(){
-        $(".fundo").css('display', 'none');
-        $(".container-aviso-email").css('display', 'none');
-    }, 1000);
-    $(".fundo").animate({
-        opacity: '0'
-    });
-});
-
 var $doc = $('html, body');
 $('.menu-sections a').click(function() {
     var windowWidth = window.innerWidth;
+    $(".open-color-sections").css('display', 'block');
 
     $doc.animate({
         scrollTop: $( $.attr(this, 'href') ).offset().top
