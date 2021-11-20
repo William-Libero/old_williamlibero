@@ -301,6 +301,15 @@ body{
     float: left;
 }
 
+.graduation-cap{
+    margin-left: -20px; 
+    margin-top: 3%;
+    color: white;
+    font-size: 2em;
+    background-color: rgba(0,0,0,.9);
+    float: left;
+}
+
 .function-title{
     display: flex;
     align-items: center;
@@ -400,6 +409,22 @@ body{
     #container-main span {
         font-size: 12vw;
         height: 70px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .function-name {
+        font-size: 1em !important;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .function-name {
+        font-size: 0.7em !important;
+    }
+
+    .function-experience {
+        font-size: 0.8em !important;
     }
 }
 /* END - MEDIAS SCREEN */
