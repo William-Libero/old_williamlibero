@@ -1,5 +1,6 @@
 $(".open-menu-sections").click(function(){
     $(".menu-sections").css('display', 'block');
+    $(".open-color-sections").css('display', 'none');
     $(".menu-sections").animate({
         height: "60px"
     }, 'fast', 'linear');
@@ -10,12 +11,80 @@ $(".open-menu-sections").click(function(){
 
 $(".close-menu-sections").click(function(){
     $(".menu-sections").css('display', 'none');
+    $(".open-color-sections").css('display', 'block');
     $(".menu-sections").animate({
         height: "0px"
     }, 'fast', 'linear');
     $(".open-menu-sections").animate({
         opacity: "1"
     }, 'fast', 'linear');
+});
+
+$(".open-color-sections").click(function(){
+    $(".color-sections").css('display', 'block');
+    $(".open-menu-sections").css('display', 'none');
+    $(".color-sections").animate({
+        height: "60px"
+    }, 'fast', 'linear');
+    $(".open-color-sections").animate({
+        opacity: "0"
+    }, 'fast', 'linear');
+});
+
+$(".close-color-sections").click(function(){
+    $(".color-sections").css('display', 'none');
+    $(".open-menu-sections").css('display', 'block');
+    $(".color-sections").animate({
+        height: "0px"
+    }, 'fast', 'linear');
+    $(".open-color-sections").animate({
+        opacity: "1"
+    }, 'fast', 'linear');
+});
+
+var defaultColor = "#01BAEF";
+colorWell = document.querySelector("#colorpicker");
+colorWell.value = defaultColor;
+colorWell.addEventListener("input", updateFirst, false);
+colorWell.select();
+function updateFirst(event) {
+    defaultColor = event.target.value;
+    $(".border-nome-site").css('background-color', event.target.value);
+    $(".title-section i").css('color', event.target.value);
+    $(".variable-color").css('color', event.target.value);
+    $(".dado-pessoal").css('border-bottom', '5px solid '+event.target.value);
+}
+
+$(".top-anchor").mouseout(function(){
+    $(".top-anchor").animate({
+        color: 'white'
+    }, 'fast', 'linear');
+});
+
+$(".top-anchor").mouseover(function(){
+    $(".top-anchor").animate({
+        color: defaultColor
+    }, 'fast', 'linear');
+});
+
+$(".link-sobre-mim").mouseover(function(){
+    console.log('slatt');
+    $(".link-sobre-mim").attr('style', 'color: '+defaultColor+' !important');
+});
+
+$(".link-sobre-mim").mouseout(function(){
+    console.log('slatt');
+    $(".link-sobre-mim").attr('style', 'color: white !important');
+});
+
+$(".link-curriculo").mouseover(function(){
+    console.log('slatt');
+    $(".link-curriculo").attr('style', 'color: '+defaultColor+' !important');
+});
+
+$(".link-curriculo").mouseout(function(){
+    console.log('slatt');
+    $(".link-curriculo").attr('style', 'color: white !important');
 });
 
 $(".nome-site").mouseover(function(){
@@ -32,7 +101,7 @@ $(".nome-site").mouseover(function(){
     }
 
     $(".nome-site").animate({
-        color: "#01BAEF"
+        color: defaultColor
     }, 'fast', 'linear');
 });
 

@@ -24,6 +24,24 @@ body{
     z-index: 100;
 }
 
+.open-color-sections{
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: rgba(0,0,0) !important;
+    color: white;
+    margin: 1%;
+    width: 35px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer !important;
+    text-align: center;
+    padding-top: 6px;
+    z-index: 1000;
+}
+
 .navbar-nav{
     margin-top: 0px !important;
 }
@@ -58,16 +76,55 @@ body{
     padding: 0px !important;
 }
 
-.menu-sections a:hover{
-    color: #01BAEF !important;
-}
-
 .menu-sections span{
     color: white !important;
     border-radius: 3px;
 }
 
 .menu-sections .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+
+.close-color-sections{
+    color: white;
+    font-size: 1.5em;
+    cursor: pointer !important;
+}
+
+.color-sections{
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    background-color: rgba(0,0,0,0.5) !important;
+    height: 0px;
+    display: none;
+}
+
+.color-sections li{
+    height: min-content;
+    margin-left: 10px;
+}
+
+.color-sections a{
+    color: white !important;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5em;
+    font-weight: 600;
+    transition: color 1s;
+    padding: 0px !important;
+}
+
+.color-sections a:hover{
+    color: #01BAEF !important;
+}
+
+.color-sections span{
+    color: white !important;
+    border-radius: 3px;
+}
+
+.color-sections .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
 }
 /* START - SESSÃO DO NOME E DOS PARTICLES */
@@ -343,10 +400,6 @@ body{
     cursor: pointer;
     transition: color 1s;
 }
-
-.top-anchor:hover{
-    color: #00a3e1;
-}
 /* END - PADRÃO DAS SECTIONS */
 
 /* START - MEDIAS SCREEN */
@@ -363,23 +416,12 @@ body{
 }
 
 @media screen and (max-width: 768px) {
-    .navbar-collapse {
-        background-color: rgba(0,0,0,0.5);
-        margin-top: 12px !important;
-        padding-left: 15px;
-    }
-
-    .menu-sections{
-        display: block !important;
-        height: 60px !important;
-    }
-
     .open-menu-sections{
-        display: none;
+        display: block;
     }
     
     .close-menu-sections{
-        display: none;
+        display: block;
     }
 }
 
@@ -408,7 +450,13 @@ body{
 @media screen and (max-width: 442px) {
     #container-main span {
         font-size: 12vw;
-        height: 70px;
+        height: 65px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    #container-main span {
+        height: 55px;
     }
 }
 
@@ -418,7 +466,23 @@ body{
     }
 }
 
+@media screen and (max-width: 305px) {
+    .link-sobre-mim {
+        font-size: 1.2em !important;
+        margin-top: 5%;
+    }
+
+    .link-curriculo {
+        font-size: 1.2em !important;
+        margin-top: 7%;
+    }
+}
+
 @media screen and (max-width: 300px) {
+    #container-main span {
+        height: 45px;
+    }
+
     .function-name {
         font-size: 0.7em !important;
     }

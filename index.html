@@ -20,7 +20,11 @@
         <i class="fas fa-bars"></i>
     </div>
 
-    <nav class="menu-sections navbar navbar-expand-md navbar-light bg-light">
+    <div class="open-color-sections">
+        <i class="fas fa-palette"></i>
+    </div>
+
+    <nav class="menu-sections navbar navbar-expand navbar-light bg-light">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -30,10 +34,26 @@
                     <i class="fas fa-times"></i>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#sobre-mim">Sobre mim</a>
+                    <a class="nav-link link-sobre-mim" href="#sobre-mim">Sobre mim</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#curriculo">Curriculo</a>
+                    <a class="nav-link link-curriculo" href="#curriculo">Curriculo</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav class="color-sections navbar navbar-expand navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-palette"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active close-color-sections">
+                    <i class="fas fa-times"></i>
+                </li>
+                <li class="nav-item active mt-2">
+                    <input type="color" id="colorpicker" name="colorpicker" value="#f6b73c">
                 </li>
             </ul>
         </div>
@@ -42,7 +62,7 @@
     <div class="sections">
         <div class="container">
             <div class="title-section" id="sobre-mim">
-                <span>Sobre mim</span>
+                <span class="variable-color">Sobre mim</span>
                 <i class="fas fa-user"></i>
                 <hr>
             </div>
@@ -62,7 +82,7 @@
                         </p>
                     </div>
                     <div class="col-md">
-                        <h1>Informações:</h1>
+                        <h1 class="variable-color">Informações:</h1>
                         <p class="dado-pessoal">Nome:</p>
                         <span>William Líbero</span>
                         <p class="dado-pessoal">Email:</p>
@@ -93,7 +113,7 @@
                     </div>
                 </div> -->
                 <div class="sub-section">
-                    <h1>Skills</h1>
+                    <h1 class="variable-color">Skills</h1>
                     <div class="border-custom"></div>
                     <div class="row">
                         <div style="height: 180px;" class="col-md sub-section-icon javascript">
@@ -123,7 +143,7 @@
                     </div>
                 </div>
                 <div class="sub-section">
-                    <h1>Projetos</h1>
+                    <h1 class="variable-color">Projetos</h1>
                     <div class="border-custom"></div>
                     <div class="row">
                         <div class="col-md sub-section-icon">
@@ -144,14 +164,14 @@
         </div>
         <div class="container" style="padding-bottom: 5%;">
             <div class="title-section" id="curriculo">
-                <span>Currículo</span>
+                <span class="variable-color">Currículo</span>
                 <i class="far fa-address-card"></i>
                 <hr>
             </div>
             <div class="title-content">
                 <div class="row">                    
                     <div class="col-md sub-section">
-                        <h1>Formação</h1>
+                        <h1 class="variable-color">Formação</h1>
                         <div class="border-custom-curriculo"></div>
                         <div class="experiences">
                             <i class="fas fa-graduation-cap graduation-cap"></i>
@@ -184,7 +204,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md sub-section">
-                        <h1>Experiência</h1>
+                        <h1 class="variable-color">Experiência</h1>
                         <div class="border-custom-curriculo"></div>
                         <div class="experiences">
                             <i class="fas fa-briefcase briefcase"></i>
